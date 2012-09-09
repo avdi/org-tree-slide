@@ -540,8 +540,7 @@ Profiles:
   (overlay-put ots-header-overlay 'after-string " ")
   (overlay-put ots-header-overlay
 	       'face
-	       '((foreground-color . "#696969")
-		 (background-color . "#FFFFFF") bold))
+	       'org-document-title)
   (if org-tree-slide-header
       (overlay-put ots-header-overlay 'display
 		   (concat "  [ " 
